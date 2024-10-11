@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-author: "User1, User2, User3, User4, User5 and User6 - Team Name"
+author: ", User2, User3, User4, User5 and User6 - Team Name"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -72,14 +72,16 @@ staff <- read_csv("data/instructional-staff.csv")
 
 What is the difference between *wide format* data and *long format* data?
 
+In wide, each subject is a single row with different columns of variables
+In long, each subject has MULTIPLE rows with a single column for one variable type
 
 Is the format `staff` data *wide* or *long*?
 
+Wide
 
 How many observations are there in the data set?
 
-
-
+5
 
 ## Exercise 2
 
